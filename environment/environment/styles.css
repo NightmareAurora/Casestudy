@@ -1,0 +1,139 @@
+body {
+    background-image: url(images/ice.png);
+    margin-left: 15%;
+    background-repeat:center;
+    margin-right: 15%;
+    
+    
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+h1{
+    font-family: fantasy;
+    text-align: center;
+}
+
+
+
+article, footer {
+    margin: 0px 15vw;
+    padding: 5vh;
+    
+}
+
+article {
+    text-align: center;
+    margin: 0px 15vw;
+    font-family: fantasy;
+    padding-bottom: 25vh;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+article p {
+    text-align: left;
+    margin: 20px 45px;
+    font-size: 20px;
+    flex-direction: row;
+    
+}
+
+
+footer {
+    
+    font-size: 20px;
+    text-align: center;
+    
+    
+    
+}
+
+footer p {
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    font-family: fantasy;
+    background-color: darkgrey;
+    margin: 0px;
+    padding: .001vw;
+    color: black;
+}
+
+a {
+    color:  slategrey;
+}
+
+#logo {
+    width: 35vw;
+    height: 18vw;
+    margin-left: 5px;
+    margin-top:5px;
+    
+    
+}
+#title {
+    
+    font-family: fantasy;
+    text-align: left;
+    border-bottom: solid 1px green;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;  
+}
+
+
+
+
+header, article, footer {
+    background-color: silver;
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+
+#column1{
+    float:left;
+    width:49%;
+    border-style:groove;
+}
+
+.board{
+    width: 50%;
+    box-shadow: 10px 10px grey; 
+}
+
+.school{
+    width: 75%;
+}
+
+#otc{
+    width:5%;
+    position:fixed;
+    bottom:0;
+    right:0;
+    
+    
+}
+
+.banner{
+    width:100%;
+}
+
+.like{
+    width:75%;
+}
